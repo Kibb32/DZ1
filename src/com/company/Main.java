@@ -6,8 +6,10 @@ public class Main {
 
     public static void main(String[] args) {
 
+        final double Sulfid = 1;
+
         double Panels , Panel_size_A , Panel_size_B ;
-        double result;пше фвв *
+        double result;
 
         Scanner input = new Scanner(System.in);
 
@@ -20,7 +22,7 @@ public class Main {
         System.out.print("Введите ширину панели: ");
         Panel_size_B = input.nextDouble();
 
-        result = Panels * Panel_size_A * Panel_size_B * 2;
+        result = Sulfid * Panels * Panel_size_A * Panel_size_B * 2;
         System.out.println("Необходимо: " + result + " сульфида ");
 
     }
